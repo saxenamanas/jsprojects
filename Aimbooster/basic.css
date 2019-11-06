@@ -1,0 +1,82 @@
+body {
+    /*background-image: linear-gradient(to right,rgb(230, 7, 7,0.8),rgb(230, 90, 90,0.8));*/
+    text-align: center;
+    background-image: url("blue-lined-background.jpg");
+}
+
+
+
+.logo{
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Bowlby One SC', cursive;
+    /*top:40px;
+    left: 50px;
+    text-align: left;*/
+    display: inline-block;
+    border-color: black;
+    }
+
+    .header{
+        width : 100%;
+        z-index: -1;
+        background-color: white;
+        margin-top: 0px;
+    }
+
+.container {
+    margin-top: 60px;
+        top: 15%;
+        width: 60%;
+        height: 80%;
+        background-color: white;
+        display: inline-block;
+        border-radius: 25px;
+        margin-bottom: 40px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+       /**/
+       border-width: 10px;
+       border-style: solid;
+        color: black;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: 'Open Sans', sans-serif;
+}
+
+#changeCursor{
+        cursor: url("target.jpg"),autp;
+}
+
+
+.btn{
+    font-size:35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 18px;
+    border-radius: 30px;
+    padding-bottom:18px;
+    background: rgb(0,0,0);
+    color: white;
+    border-color: rgb(0,0,0);
+}
+
+.game{
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:active{
+    transform: translateY(-1px);
+}
+
+.btn:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.enemy{
+    width: 40px;
+    position: relative;
+    left: 420px;   /* 0 to 420px */
+    top: 260px;     /*0 to 260px */
+}
